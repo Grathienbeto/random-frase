@@ -12,6 +12,11 @@ export default {
     fontFamily: {
       manrope: ["Manrope", "ui-sans-serif"],
     },
+    extend: {
+      boxShadow: {
+        lg: "0px 0px 25px 2px rgba(82,255,168,1);",
+      },
+    },
   },
   plugins: [],
 };
